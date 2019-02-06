@@ -171,11 +171,12 @@ li {
 }
 
 .mediasliderimage{
-  display: block;
-  padding: 4px;
-  margin-bottom: 20px;
+  display: block;;
+  /* padding: 4px; */
+  /* margin-bottom: 20px; */
   line-height: 1.42857143;
-  background-color: #333;
+  border-top: 15px solid #664d48;
+  border-bottom: 15px solid #664d48;
 }
 
 .overlay {
@@ -186,17 +187,18 @@ li {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: .5;
   transition: .5s ease;
-  background-color:#1BBD36;
+  background-color:#fff;
+/*   margin: auto; */
 }
 
 .eckcon:hover .overlay {
-  opacity: 1;
+  opacity: 0;
 }
 
 .text {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -207,13 +209,33 @@ li {
   text-align: center;
 }
 
-/* SLIDER SKINS */
+/* CARROUSEL SKINS */
 
 .protection {
   background-color: rgb(214, 241, 246);
   padding: 100px 0px;
 }
 
+/* SLIDER */
+.f-blue {
+  color: #056082;
+}
+ 
+.btn1 {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #f08d24;
+  font-family: "hbold";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: .65;
+  letter-spacing: normal;
+  color: #fff;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
 /* FOOTER  */
 
 footer {
