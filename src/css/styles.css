@@ -217,6 +217,7 @@ li {
 }
 
 /* SLIDER */
+
 .f-blue {
   color: #056082;
 }
@@ -236,6 +237,52 @@ li {
   margin-right: auto;
   padding: 24px;
 }
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
+
+.image img {
+  margin: auto !important;
+}
+
+.card {
+  max-width: 324px;
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  margin: 5px 15px;
+}
+
 /* FOOTER  */
 
 footer {
